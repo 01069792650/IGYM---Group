@@ -135,7 +135,7 @@ footer {
     .amira-footer-content {
         grid-template-columns: 1fr;
         padding: 10px;
-        height: 790px;
+        height: 700px;
         gap: 1px;
         width: 150px;
         
@@ -150,11 +150,13 @@ footer {
     }
     .amira-footer-section.about {
         margin-left: 2px;
-        margin-top: 2px;
-            margin-inline-start: 0
+        margin-bottom: 20px;
+        
+            margin-inline-start: 0;
     }
     .amira-footer-section.links {
         margin-left: 5px;
+        margin-bottom: -5px;
         
         }
         .amira-footer-section.about p{
